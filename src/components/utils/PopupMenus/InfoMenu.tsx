@@ -27,7 +27,8 @@ const InfoMenu = () => {
             menu.innerHTML = `
                 <h2>Information</h2>
                 <p>Visit the <a href="https://github.com/Suchti18/dj_controller" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
-                <p>Version: X.X.X</p>
+                <p>If you need music, visit: <a href="https://github.com/Suchti18/dj_controller/tree/main/samples" target="_blank" rel="noopener noreferrer">Sample songs</a></p>
+                <p>Version: 1.0.0</p>
                 <p>Made with &#x2764;&#xFE0F; by Nils in <img src="https://flagcdn.com/24x18/de.png" alt="Flag of Germany"></p>`;
 
             const closeBtn = document.createElement("button");

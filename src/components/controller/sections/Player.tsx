@@ -200,7 +200,7 @@ const Player = forwardRef<DJPlayer, DJPlayerProps>(({ side = "none" }, ref) => {
               <input type="file" accept="video/*, audio/*" ref={inputRef} onChange={(e) => handleFileChange(e)} className="hidden"/>
 
               {coverUrl && (
-                  <img src={coverUrl} alt="Cover" className="w-48 h-48 object-cover rounded" />
+                  <img src={coverUrl} alt="Cover"/>
               )}
 
               {audioSrc && (
